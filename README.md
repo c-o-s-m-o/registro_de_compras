@@ -44,8 +44,14 @@ Consulte compras anteriores para um controle financeiro mais eficiente.
 
 ### Itens Comprados 📂
 
-Consulte compras anteriores para um controle financeiro mais eficiente.
+Visualize os itens comprados na data e supermercado.
 ![Itens Comprados](screenshots/itens-comprados.png)  
+
+### Sobre o App 📂
+
+Informações sobre o Aplicativo.
+
+![Sobre o Ap](screenshots/sobre_o_app.png)  
 
 
 🛠️ Tecnologias Utilizadas
@@ -73,4 +79,3 @@ flutter pub get
 
 # Execute o aplicativo
 flutter run
-
