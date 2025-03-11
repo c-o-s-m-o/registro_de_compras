@@ -19,16 +19,19 @@ O Registro de Compras é um aplicativo intuitivo e eficiente para acompanhar seu
 ## 📱 Como Usar
 
 ### Tela Inicial
+
 ![Tela Inicial](screenshots/tela_inicial.png)  
 
 ### Adicionar Itens ➕
 
 Toque no botão + para incluir produtos na sua lista.
+
 ![Adicionar Itens](screenshots/adicionar_itens.png)  
 
-### Acompanhar o Total 👀 acompanhar_o_total
+### Acompanhar o Total 👀
 
 O valor total será atualizado automaticamente conforme você adiciona ou remove itens.
+
 ![Acompanhar o Total](screenshots/acompanhar_o_total.png)  
 
 ### Finalizar a Compra 🛒
@@ -45,6 +48,7 @@ Consulte compras anteriores para um controle financeiro mais eficiente.
 ### Itens Comprados 📂
 
 Visualize os itens comprados na data e supermercado.
+
 ![Itens Comprados](screenshots/itens-comprados.png)  
 
 ### Sobre o App 📂
