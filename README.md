@@ -1,85 +1,85 @@
-📌 Registro de Compras
+# Registro de Compras
 
-Gerencie suas compras com praticidade e evite surpresas no caixa! 🚀
+Aplicativo Flutter para acompanhar compras de supermercado em tempo real, registrar itens e valores, calcular o total antes do caixa e manter histórico de compras realizadas.
 
-O Registro de Compras é um aplicativo intuitivo e eficiente para acompanhar seus gastos no supermercado. Com ele, você mantém controle total sobre seus itens e valores, garantindo um planejamento financeiro mais inteligente e tranquilo.
+> **Status:** projeto funcional de portfólio mobile, mantido como demonstração de Flutter, gerenciamento de estado e persistência local.
 
-✨ Funcionalidades Principais
+## Problema que o projeto resolve
 
-✅ Registro Rápido de Itens: Adicione produtos à sua lista de forma simples e prática.
+Durante uma compra, é fácil perder a noção do valor acumulado no carrinho. O aplicativo foi criado para permitir o registro rápido dos itens e mostrar o total atualizado enquanto a compra acontece.
 
-💰 Cálculo Automático: Veja o valor total das suas compras atualizado em tempo real.
+## Funcionalidades
 
-📊 Histórico de Compras: Acompanhe suas compras anteriores para um melhor planejamento financeiro.
+- cadastro de itens e respectivos valores;
+- cálculo automático do total da compra;
+- ocultação de itens sem exclusão definitiva;
+- finalização da compra com mercado e data;
+- histórico de compras realizadas;
+- consulta dos itens de uma compra anterior;
+- persistência local dos dados;
+- interface adaptada ao uso em smartphone.
 
-🕵️ Modo Oculto: Oculte itens sem excluí-los para manter sua lista organizada.
+## Stack
 
-🎨 Interface Moderna: Design intuitivo e agradável para uma experiência fluida.
+- Flutter
+- Dart
+- Provider — gerenciamento de estado
+- SQLite / Sqflite — persistência local
+- Moor
+- Intl
+- Google Fonts
+- Path Provider
 
-## 📱 Como Usar
+## Demonstração
 
-### Tela Inicial
+### Tela inicial
+![Tela Inicial](screenshots/tela_inicial.png)
 
-![Tela Inicial](screenshots/tela_inicial.png)  
+### Adicionar itens
+![Adicionar Itens](screenshots/adicionar_itens.png)
 
-### Adicionar Itens ➕
+### Total em tempo real
+![Acompanhar o Total](screenshots/acompanhar_o_total.png)
 
-Toque no botão + para incluir produtos na sua lista.
+### Finalizar compra
+![Finalizar a Compra](screenshots/finalizar_compra.png)
 
-![Adicionar Itens](screenshots/adicionar_itens.png)  
+### Histórico
+![Lista de compras realizadas](screenshots/lista_de_compras_realizadas.png)
 
-### Acompanhar o Total 👀
+### Detalhes da compra
+![Itens Comprados](screenshots/itens-comprados.png)
 
-O valor total será atualizado automaticamente conforme você adiciona ou remove itens.
+### Sobre o aplicativo
+![Sobre o App](screenshots/sobre_o_app.png)
 
-![Acompanhar o Total](screenshots/acompanhar_o_total.png)  
+## Execução local
 
-### Finalizar a Compra 🛒
-
-Informe o nome do mercado e a data para registrar sua compra.
-
-![Finalizar a Compra ](screenshots/finalizar_compra.png)  
-
-### Revisar o Histórico 📂
-
-Consulte compras anteriores para um controle financeiro mais eficiente.
-![Revisar o Histórico](screenshots/lista_de_compras_realizadas.png)  
-
-### Itens Comprados 📂
-
-Visualize os itens comprados na data e supermercado.
-
-![Itens Comprados](screenshots/itens-comprados.png)  
-
-### Sobre o App 📂
-
-Informações sobre o Aplicativo.
-
-![Sobre o Ap](screenshots/sobre_o_app.png)  
-
-
-🛠️ Tecnologias Utilizadas
-
-🚀 Flutter - Framework para desenvolvimento multiplataforma.
-
-🏆 Dart - Linguagem de programação utilizada.
-
-🔄 Provider - Gerenciamento de estado eficiente.
-
-🗄️ SQLite - Banco de dados local para armazenamento das compras.
-
-✨ Google Fonts - Personalização de fontes para um visual mais moderno.
-
-▶️ Como Executar o Projeto
-
-# Clone o repositório
+```bash
 git clone https://github.com/c-o-s-m-o/registro_de_compras.git
-
-# Navegue até o diretório do projeto
 cd registro_de_compras
-
-# Instale as dependências
 flutter pub get
-
-# Execute o aplicativo
 flutter run
+```
+
+## Pontos de engenharia demonstrados
+
+- gerenciamento de estado com Provider;
+- persistência local;
+- modelagem de dados de compra;
+- atualização reativa da interface;
+- organização de fluxo mobile;
+- tratamento de histórico e detalhes de registros.
+
+## Evolução recomendada
+
+- ampliar testes unitários e de widgets;
+- documentar a estrutura interna do projeto;
+- revisar e simplificar a camada de persistência;
+- adicionar filtros e busca no histórico;
+- adicionar exportação de compras;
+- documentar builds Android/iOS.
+
+## Autor
+
+**Emanuel Cosmo**
